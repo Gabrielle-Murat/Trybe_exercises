@@ -5,14 +5,30 @@
     <title>HTML</title>
     <style>
 
+        body{
+          font-size: 16px;
+        }
+
         h1 {
+            font-family: sans-serif;
             size: 65px;
             color: orange;
+            text-decoration: underline;
+        }
+
+        p {
+          font-weight: 600;
+          font-size: 48px;
+          text-decoration: underline;
         }
 
         ul {
+            text-align: left;
+            line-height: 130%;
+            font-style: italic;
             background-color: pink;
         }
+
 
         /* Posso modificar as cores de fundo da ul e do p desta forma também: */
         /* ul, p {
@@ -23,15 +39,28 @@
             background-color: aquamarine;
         }
 
+        .yellow-background {
+          background-color: yellow;
+        }
+
+        .red-background {
+          background-color: red;
+        }
+
+        .brown-background {
+          background-color: brown;
+        }
+
+
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="background-color">Qual é a sua cor favorita?</p>
     <ul class="background-color">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li class="yellow-background">Amarelo</li>
+      <li class="red-background">Vermelho</li>
+      <li class="brown-background">Marrom</li>
     </ul>
   </body>
 </html>
