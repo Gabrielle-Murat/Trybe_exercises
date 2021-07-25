@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+h1, p {
+    text-align: center;
+}
+
+ol:hover {
+    background-color: aquamarine;
+    transition: 0.2s;
+}
+
+ol:active {
+    font-family:'Indie Flower', cursive;
+}
+
+ol, ul {
+    list-style: none;
+}

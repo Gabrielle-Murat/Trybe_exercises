@@ -1,0 +1,47 @@
+/* .figuras {
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    margin: 1%;
+} */
+
+.super-mario {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    top: 15%;
+    margin-left: 5%;
+  }
+  
+.goomba {
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    top: 75%;
+    margin-left: 10%;
+  }
+  
+.baloon {
+    position: absolute;
+    width: 26%;
+    height: 32%;
+    top: 5%;
+    margin-left: 35%;
+    z-index: 1; 
+  }
+  
+.speach {
+    position: absolute;
+    font-size: 270%;
+    top: 11%;
+    margin-left: 36%;
+    z-index: 2;
+  }
+  
+.bowser {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    top: 30%;
+    margin-left: 50%;
+  }

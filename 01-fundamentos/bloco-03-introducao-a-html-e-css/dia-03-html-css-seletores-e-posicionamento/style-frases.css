@@ -1,0 +1,68 @@
+ol li:nth-child(even) {
+    color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: capitalize;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: 700;
+}
+
+
+h1, h3 {
+    color: red;
+}
+
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.background-color {
+    background-color: yellow;
+}
+
+.font-color {
+    color: blue;
+}
+
+.java-color {
+    color: pink;
+}
+
+
+ul li:first-of-type a:hover {
+    color: orange;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+ul li:nth-of-type(2) a:hover {
+    color: green;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+ul li:nth-of-type(3) a:hover {
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+ul li:nth-of-type(4) a:hover {
+    color: yellow;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+ul li:last-of-type a:hover {
+    color: green;
+    font-weight: 700;
+    transition: 0.5s;
+}
