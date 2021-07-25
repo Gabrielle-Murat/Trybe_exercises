@@ -1,0 +1,33 @@
+div:hover {
+    border: 1px solid;
+}
+
+div:first-of-type {
+    color: blue;
+    font-family: monospace;
+}
+
+div:nth-of-type(2) {
+    color: green;
+    font-family:'Montserrat', sans-serif;;
+}
+
+div:nth-of-type(3) {
+    color: orange;
+    font-family:'Times New Roman', serif;
+    font-size: larger;
+}
+
+div:nth-of-type(4) {
+    color: black;
+    font-family:Arial;
+}
+
+div:last-of-type {
+    color: wheat;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+div:nth-child(odd) {
+    font-style: italic;
+}
