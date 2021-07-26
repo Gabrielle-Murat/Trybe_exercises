@@ -8,8 +8,9 @@ h1 {
     height: 50px;
     text-align: center;
     width: 200px;
-    display: block;
     margin: auto;
+    display: block;
+    
   }
 
   .second {
