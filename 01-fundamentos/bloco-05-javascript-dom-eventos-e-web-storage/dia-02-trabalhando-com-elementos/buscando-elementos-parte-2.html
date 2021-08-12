@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    //1- Crie um irmão para elementoOndeVoceEsta
+    let pai = document.getElementById("pai");
+    let quintoFilho = document.createElement('section');
+    quintoFilho.id = "quintoInesperadoFilho";
+    pai.appendChild(quintoFilho);
+
+    //2- Crie um filho para elementoOndeVoceEsta
+    let segundoFilho = document.getElementById("elementoOndeVoceEsta");
+    let terceiroFilhoDoFilho = document.createElement('section');
+    terceiroFilhoDoFilho.id = "terceiroFilhoDoFilho";
+    segundoFilho.appendChild(terceiroFilhoDoFilho);
+
+    //3- Crie um filho para primeiroFilhoDoFilho
+    let primeiroFilhoDoFilho = document.getElementById("primeiroFilhoDoFilho");
+    let primeiroFilhoDoFilhoDoFilho = document.createElement('section');
+    primeiroFilhoDoFilhoDoFilho.id = "primeiroFilhoDoFilhoDoFilho";
+    primeiroFilhoDoFilho.appendChild(primeiroFilhoDoFilhoDoFilho);
+
+    //4- A partir desse filho criado, acesse terceiroFilho
+    document.getElementById("primeiroFilhoDoFilhoDoFilho");
+
+  </script>
+</body>
+</html>
