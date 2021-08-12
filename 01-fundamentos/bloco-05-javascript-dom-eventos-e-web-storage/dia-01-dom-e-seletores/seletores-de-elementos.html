@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = "O Senhor dos Anéis";
+      document.getElementById("second-paragraph").innerText = "Oh my god";
+      document.getElementById("subtitle").innerText = "A Trilogia";
+      document.getElementsByClassName("paragrafo")[0].style.color = 'blue';
+      document.getElementsByTagName("h4")[0].style.color = 'pink';
+    </script>
+  </body>
+</html>
