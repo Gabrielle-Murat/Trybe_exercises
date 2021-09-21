@@ -1,0 +1,32 @@
+fieldset {
+  margin-bottom: 1%;
+}
+
+label {
+  margin: 1%;
+}
+
+input {
+  margin-bottom: 2%;
+}
+
+select {
+  margin-bottom: 3%;
+}
+
+textarea {
+  text-align: center;
+}
+
+#input-house {
+  margin: 0;
+}
+
+#input-apartment {
+  margin: 0;
+  margin-left: 3%;
+}
+
+#submit #test {
+  display: inline-block;
+}

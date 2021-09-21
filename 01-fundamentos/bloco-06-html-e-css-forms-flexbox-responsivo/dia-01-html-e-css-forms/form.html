@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='style.css'>
+  <title>Formulário de Currículo</title>
+</head>
+<body>
+  <form id='form'>
+    <fieldset>
+      <label for='input-name'>Nome: 
+        <input id='input-name' type='text' name='name' value='' maxlength='40' required>
+      </label>
+      <br>
+      <label for='input-email'>E-mail: 
+        <input id='input-email' type='text' name='email' value='' maxlength='50' required>
+      </label>
+      <br>
+      <label for='input-cpf'>CPF: 
+        <input id='input-cpf' type='text' name='cpf' value='' maxlength='11' required>
+      </label>
+      <br>
+      <label for='input-adress'>Endereço: 
+        <input id='input-adress' type='text' name='adress' value='' maxlength='200' required>
+      </label>
+      <br>
+      <label for='input-city'>Cidade: 
+        <input id='input-city' type='text' name='city' value='' maxlength='28' required>
+      </label>
+      <br>
+      <label for='input-state'>Estado: 
+        <select id='input-state' name='state'>
+        </select>
+      </label>
+      <br>
+      <div>
+        <input id='input-house' type='radio' name='residence-type' required>
+        <label for='input-house'>Casa</label>
+        <input id='input-apartment' type='radio' name='residence-type' required>
+        <label for='input-apartment'>Apartamento</label>
+      </div>
+      <br>
+    </fieldset>
+    <fieldset>
+      <label for='abstract'>Resumo: </label>
+      <br>
+      <textarea id='abstract' name='abstract' maxlength='1000' rows='6' cols='50' required></textarea>
+      <br>
+      <label for=''>Cargo: 
+        <input id='role' type='text' name='role' maxlength='40' required>
+      </label>
+      <br>
+      <label for='role-description'>Descrição do cargo: 
+        <input id='role-description' type='text' name='role-description' maxlength='500' required>
+      </label>
+      <br>
+      <label for='initiation-date'>Data de início: 
+        <input id='initiation-date' type='text' name='initiation-date' placeholder='dd/mm/aaa' required>
+      </label>
+    </fieldset>
+  </form>
+  <br>
+  <button id='submit' type='submit'>Submeter</button>
+  <button id='erase'>Apagar formulário</button>
+  <br><br>
+  <ul id='final-response'></ul>
+  <script type='text/javascript' src='script.js'></script>
+</body>
+</html>
