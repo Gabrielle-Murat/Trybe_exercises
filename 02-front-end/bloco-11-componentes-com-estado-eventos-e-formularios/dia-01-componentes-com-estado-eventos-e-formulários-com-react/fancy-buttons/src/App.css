@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.buttons {
+  padding: 10px;
+}
+
+.first-button, .second-button, .third-button {
+  margin: 10px;
+  padding: 10px;
+}
